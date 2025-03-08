@@ -110,3 +110,12 @@ nav [class*="fa-"] {
 nav [class*="fa-"]:hover {
   color: var(--magenta);
 }
+.button {
+  padding: 0.5rem;
+  background-color: var(--magenta);
+  border-radius: 6px;
+}
+.button:hover {
+  color: white;
+  background-color: var(--hotmag);
+}
