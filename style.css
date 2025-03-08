@@ -56,3 +56,13 @@ a:hover {
   display: block;
   font-weight: normal;
 }
+#contact {
+  width: 400px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: var(--plum);
+}
+#contact p:last-child {
+  margin-top: 3rem;
+}
