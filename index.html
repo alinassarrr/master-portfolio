@@ -10,9 +10,41 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo">
+            <h1><a href="index.html">Ali Nassar</a></h1>
+          </li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <!-- using aria-hidden for screen readers where instead of icon the span with class sr-only will be displayed and read -->
+            <a href="https://www.linkedin.com/in/ali-nassarrr/" target="_blank"
+              ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+              ><span class="sr-only">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/nassarov" target="_blank"
+              ><i class="fa-brands fa-square-github" aria-hidden="true"></i>
+              <span class="sr-only">Github</span>
+            </a>
+          </li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
     <section id="intro">
       <p class="name">Hi, my name is <span>Ali Nassar.</span></p>
       <h2>I develop and create the front end of websites.</h2>
