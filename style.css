@@ -96,3 +96,11 @@ nav li:first-child {
   flex-basis: 100%;
   text-align: center;
 }
+/* attribute selector class contain "fa-" to target if in specific way*/
+nav [class*="fa-"] {
+  font-size: 150%;
+  color: var(--aqua);
+}
+nav [class*="fa-"]:hover {
+  color: var(--magenta);
+}
