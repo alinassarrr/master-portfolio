@@ -1,0 +1,4 @@
+Hi, my name is Ali Nassar.
+I develop and create the front end of websites.
+I'm a developer specializing in HTML, CSS and JavaScript.
+Currently, I'm completing the FullStack Bootcamp.
