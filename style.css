@@ -131,3 +131,17 @@ nav [class*="fa-"]:hover {
     margin-right: auto;
   }
 }
+footer {
+  text-align: center;
+  margin-top: 5rem;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2.5rem;
+}
+footer a {
+  font-size: 40px;
+}
