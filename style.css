@@ -41,7 +41,9 @@ a:hover {
 
 /* intro styles */
 #intro {
-  padding-bottom: 10rem;
+  padding: 4rem 2rem 10rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 #intro p {
   font-size: 1rem;
@@ -57,7 +59,7 @@ a:hover {
   font-weight: normal;
 }
 #contact {
-  width: 400px;
+  width: 70%;
   margin: 0 auto;
   padding: 3rem 1rem;
   text-align: center;
@@ -65,6 +67,19 @@ a:hover {
 }
 #contact p:last-child {
   margin-top: 3rem;
+}
+
+.section-end {
+  background: linear-gradient(
+    90deg,
+    rgba(235, 28, 211, 1) 25%,
+    rgba(134, 251, 251, 1) 100%
+  );
+
+  height: 2px;
+}
+.section-plum {
+  background-color: var(--plum);
 }
 header {
   font-family: var(--mono);
@@ -114,6 +129,9 @@ nav [class*="fa-"]:hover {
   padding: 0.5rem;
   background-color: var(--magenta);
   border-radius: 6px;
+  font-family: var(--mono);
+  color: white;
+  text-decoration: none;
 }
 .button:hover {
   color: white;
