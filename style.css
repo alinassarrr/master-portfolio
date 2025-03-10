@@ -242,3 +242,8 @@ footer ul {
 footer a {
   font-size: 40px;
 }
+.about {
+  header {
+    padding-bottom: 3rem;
+  }
+}
